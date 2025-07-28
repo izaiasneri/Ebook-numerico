@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sec-pad{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+
+
+
+.pilula{
+    margin-top: 3rem;
+    font-size: 1rem;
+    padding: 2px;
+    background-color: #0069B4;
+    color: white;
+    border-radius: 3rem;
+    width: 100px;
+    text-align: center;
+    color: #8DBEF7;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.titulo-hero{
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+   
+}
+.hero p{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+
+.cartao{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(229, 230, 238, 0.121); /* Branco 70% opaco */
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px); /* Efeito de desfoque no que está atrás (opcional) */
+    border: 2px solid rgba(182, 199, 240, 0.2); /* Borda sutil */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    text-align: center;
+}
+
+.cartao i{
+    font-size: 2.5rem;
+}
+
+
+
+.sobre  p{
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    
+}
+.depoimentos p{
+    font-size: clamp(1rem, 2vw, 1.3rem);
+}
+
+/* Backgrounds */
+.bg-azul-01{background-color: #0069B4;}
+.bg-azul-02{background-color: #123274;}
+.bg-footer-01{background-color: #123;}
+
+
+
+
+@media (min-width:768px) {
+.titulo-hero{
+    width: 60%;
+}
+    
+}
