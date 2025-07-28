@@ -1,6 +1,4 @@
-Claro! Aqui está uma sugestão de texto para o `README.md` da sua landing page de um eBook de Cálculo Numérico com metodologias ativas:
 
----
 
 # 📘 Landing Page — eBook de Cálculo Numérico com Metodologias Ativas
 
